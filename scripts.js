@@ -42,14 +42,17 @@ Importante: Tomar cuidado com a sequencia dos símbolos, para não confundir com
 
 //-------------- EXERICICIO 1 ----------------
 
-function verificaPar (num){
-    num = prompt('Digite um número para verificar')
-    if(num % 2 === 0){
-        console.log('O número é par')
+function compararNumeros(boleano1, boleano2) {
+    boleano1 = Number(prompt('Digite um número a ser comparado'))
+    boleano2 = Number(prompt('Digite um número a ser comparado'))
+    if(boleano1 === boleano2){
+        alert('Os números são iguais')
+    }else{
+        alert('Os números são diferentes')
     }
 }
 
-verificaPar()
+compararNumeros()
 
 //-------------- EXERICICIO 2 ----------------
 //-------------- EXERICICIO 3 ----------------
