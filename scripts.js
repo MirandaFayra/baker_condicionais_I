@@ -58,6 +58,7 @@ function compararNumeros(boleano1, boleano2) {
 
 //-------------- EXERICICIO 2 ----------------
 
+/*
 function compararNumeros(boleano1, boleano2,  boleano3) {
     //boleano1 = Number(prompt('Digite um número a ser comparado'))
     //boleano2 = Number(prompt('Digite um número a ser comparado'))
@@ -74,7 +75,43 @@ function compararNumeros(boleano1, boleano2,  boleano3) {
      }
  }
 
- compararNumeros()
+//compararNumeros()
+
+*/
 
 //-------------- EXERICICIO 3 ----------------
+
+/*
+function verificarIdade(idade){
+    idade = Number(prompt('Digite a idade desejada'))
+    if(idade >=18 && idade<70){
+        alert('Você deve votar')
+    }else if(idade>= 16 && idade<18){
+        alert('Caso queira, pode votar pois é facultativo')
+    }else if(idade >= 70){
+        alert('Seu voto é facultativo')
+    }else {
+        alert('Informe corretamente sua idade')
+    }
+}
+
+verificarIdade( ) */ 
+
+
 //-------------- EXERICICIO EXTRA ------------
+
+function verificarSePassou (media){
+    media = Number(prompt('Digite a sua nota'))
+
+    if(media >= 5){
+        console.log('Foi aprovade, parabéns!')
+    }else if(media >= 3){
+        console.log('Vai para recuperação!')
+    }else if(media < 3){
+        console.log('Estudante reprovade!')
+    }else{
+        console.log('Dado inválido!')
+    }
+}
+
+verificarSePassou()
