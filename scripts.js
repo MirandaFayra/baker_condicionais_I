@@ -42,8 +42,9 @@ Importante: Tomar cuidado com a sequencia dos símbolos, para não confundir com
 
 //-------------- EXERICICIO 1 ----------------
 
+/*
 function compararNumeros(boleano1, boleano2) {
-    boleano1 = Number(prompt('Digite um número a ser comparado'))
+   boleano1 = Number(prompt('Digite um número a ser comparado'))
     boleano2 = Number(prompt('Digite um número a ser comparado'))
     if(boleano1 === boleano2){
         alert('Os números são iguais')
@@ -52,8 +53,28 @@ function compararNumeros(boleano1, boleano2) {
     }
 }
 
-compararNumeros()
+//compararNumeros()
+*/
 
 //-------------- EXERICICIO 2 ----------------
+
+function compararNumeros(boleano1, boleano2,  boleano3) {
+    //boleano1 = Number(prompt('Digite um número a ser comparado'))
+    //boleano2 = Number(prompt('Digite um número a ser comparado'))
+    //boleano3 = Number(prompt('Digite um número a ser comparado'))
+
+     if(boleano1 === boleano2){
+         alert('Os números um e dois são iguais')
+     }else if(boleano2 === boleano3){
+        alert('Os números dois e três são iguais')
+     }else if(boleano3 === boleano1){
+        alert('Os números três e um são iguais')
+     }else{
+         alert('Os números são diferentes')
+     }
+ }
+
+ compararNumeros()
+
 //-------------- EXERICICIO 3 ----------------
 //-------------- EXERICICIO EXTRA ------------
