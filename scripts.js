@@ -1,3 +1,5 @@
+console.log('Salve Baker')
+
 // -------------- RELEMBRANDO ----------------
 /*
 - OPERADORES RELACIONAIS => 
