@@ -41,6 +41,16 @@ Importante: Tomar cuidado com a sequencia dos símbolos, para não confundir com
 */
 
 //-------------- EXERICICIO 1 ----------------
+
+function verificaPar (num){
+    num = prompt('Digite um número para verificar')
+    if(num % 2 === 0){
+        console.log('O número é par')
+    }
+}
+
+verificaPar()
+
 //-------------- EXERICICIO 2 ----------------
 //-------------- EXERICICIO 3 ----------------
 //-------------- EXERICICIO EXTRA ------------
